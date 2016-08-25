@@ -1,24 +1,25 @@
 $(document).ready(function() {
+	
+	var questionObjects = {
+		question1: "You talking to me?"
+		question2: "Frankly my dear.."
+		question3: "werwer wer "
+		question4: "value"
+		question5: "werewewr"
+	};
 
-	var question1 = {
-		question: "You talking to me?"
-		guess1: "Taxi Driver"
-		guess2: "Kill Bill"
-		guess3: "It"
-		guess4: "Grand Budapest Hotel"
+
+	
+
+	$("#sumbitButton").click(function(event) {
+		if
+		$("#feedback").text("")
+
+  	function newGame (){
+
+  	}
+
+
 }
 
-//function to increase count by one
-  	function questionCounter() {
-		$(".submitButton").click(function(event) {
-			event.preventDefault();
-			count+=1;
-			$("#counter").text(count);
-		});
-	}
-
-	//call guessCounter function
-  	questionCounter();
-
-}
-
+//how do we make sure the user picks the right answer?
